@@ -10,7 +10,11 @@ public class RightSideLeftSwitchAutonomous extends CommandGroup {
     public RightSideLeftSwitchAutonomous() {
     	//addSequential(new DriveDistanceCommand( 10, 1 ));
     	
+<<<<<<< HEAD
     	addSequential(new DriveForwardCommand(.5, 2));
+=======
+    	addSequential(new DriveForwardCommand(2,.5));
+>>>>>>> Initial Commit
         // Add Commands here:
         // e.g. addSequential(new Command1());
         //      addSequential(new Command2());

@@ -26,8 +26,13 @@ public class TurnAtTimeCommand extends Command {
     		Robot.driveTrainSubsystem.moveLeftTrain(power);
     		Robot.driveTrainSubsystem.moveRightTrain(-power);
     	}else if(power < 0) {
+<<<<<<< HEAD
     		Robot.driveTrainSubsystem.moveRightTrain(-power);
     		Robot.driveTrainSubsystem.moveLeftTrain(power);
+=======
+    		Robot.driveTrainSubsystem.moveRightTrain(power);
+    		Robot.driveTrainSubsystem.moveLeftTrain(-power);
+>>>>>>> Initial Commit
     	}
     			
     }

@@ -9,7 +9,11 @@ public class DriveFowardAutonomous extends CommandGroup {
 
     public DriveFowardAutonomous() {
     	
+<<<<<<< HEAD
     	//addSequential(new DriveForwardCommand(.5, 3));
+=======
+    	//addSequential(new DriveForwardCommand(3, .5));
+>>>>>>> Initial Commit
     	addSequential(new AutonomousTimedDriveForward(3));
         // Add Commands here:
         // e.g. addSequential(new Command1());

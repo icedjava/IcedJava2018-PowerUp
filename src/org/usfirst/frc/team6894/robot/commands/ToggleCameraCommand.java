@@ -1,13 +1,23 @@
 package org.usfirst.frc.team6894.robot.commands;
 
+<<<<<<< HEAD
 import org.usfirst.frc.team6894.robot.Robot;
 
 import edu.wpi.first.wpilibj.command.Command;
+=======
+//import org.usfirst.frc.team6894.robot.Robot;
+
+//import edu.wpi.first.wpilibj.command.Command;
+>>>>>>> Initial Commit
 
 /**
  *
  */
+<<<<<<< HEAD
 public class ToggleCameraCommand extends Command {
+=======
+/*public class ToggleCameraCommand extends Command {
+>>>>>>> Initial Commit
 
     public ToggleCameraCommand() {
         // Use requires() here to declare subsystem dependencies
@@ -41,4 +51,8 @@ public class ToggleCameraCommand extends Command {
     // subsystems is scheduled to run
     protected void interrupted() {
     }
+<<<<<<< HEAD
 }
+=======
+}*/
+>>>>>>> Initial Commit

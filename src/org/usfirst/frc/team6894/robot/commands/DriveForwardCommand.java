@@ -11,7 +11,11 @@ public class DriveForwardCommand extends Command {
 	
 	double power, time;
 
+<<<<<<< HEAD
     public DriveForwardCommand(double power, double time) {
+=======
+    public DriveForwardCommand(double time, double power) {
+>>>>>>> Initial Commit
     	requires(Robot.driveTrainSubsystem);
     	this.power = power;
     	this.time = time;

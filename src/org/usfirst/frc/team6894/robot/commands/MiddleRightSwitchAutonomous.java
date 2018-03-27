@@ -15,11 +15,19 @@ public class MiddleRightSwitchAutonomous extends CommandGroup {
     	//addSequential(new DriveDistanceCommand( 5, 1 ));
     	//addSequential(new ArmAutonomous(1, .6));
     	
+<<<<<<< HEAD
     	addSequential(new DriveForwardCommand(1, 1)); //time based
     	addSequential(new TurnAtTimeCommand(.5, .5));
     	addSequential(new DriveForwardCommand(1, 1));
     	addSequential(new TurnAtTimeCommand(-.5, .5));
     	addSequential(new DriveForwardCommand(1, 1));
+=======
+    	addSequential(new DriveForwardCommand(1, .5)); //time based
+    	addSequential(new TurnAtTimeCommand(.5, .5));
+    	addSequential(new DriveForwardCommand(1, .5));
+    	addSequential(new TurnAtTimeCommand(.5, -.5));
+    	addSequential(new DriveForwardCommand(1, .5));
+>>>>>>> Initial Commit
     	addSequential(new ArmAutonomous(1, .6));
         // Add Commands here:
         // e.g. addSequential(new Command1());
